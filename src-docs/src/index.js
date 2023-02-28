@@ -26,6 +26,7 @@ import themeLight from './theme_light.scss';
 import themeDark from './theme_dark.scss';
 import themeCascadiaLight from './theme_cascadia_light.scss';
 import themeCascadiaDark from './theme_cascadia_dark.scss';
+import themePinkElephant from './theme_pink_elephant.scss';
 import { ThemeProvider } from './components/with_theme/theme_context';
 import ScrollToHash from './components/scroll_to_hash';
 import { LinkWrapper } from './views/link_wrapper';
@@ -34,6 +35,7 @@ registerTheme('light', [themeLight]);
 registerTheme('dark', [themeDark]);
 registerTheme('cascadia-light', [themeCascadiaLight]);
 registerTheme('cascadia-dark', [themeCascadiaDark]);
+registerTheme('pink-elephant', [themePinkElephant]);
 
 // Set up app
 

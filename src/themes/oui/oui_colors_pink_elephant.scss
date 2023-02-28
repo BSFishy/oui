@@ -1,0 +1,110 @@
+/*!
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * The OpenSearch Contributors require contributions made to
+ * this file be licensed under the Apache-2.0 license or a
+ * compatible open source license.
+ *
+ * Modifications Copyright OpenSearch Contributors. See
+ * GitHub history for details.
+ */
+
+@import '../../global_styling/functions/index';
+
+// These colors stay the same no matter the theme
+$ouiColorGhost: #FFF;
+$ouiColorInk: #000;
+
+// Core
+$ouiColorPrimary: #FF009D;
+$ouiColorSecondary: #6448D6;
+$ouiColorAccent: #BADA55;
+
+// Status
+$ouiColorSuccess: $ouiColorSecondary;
+$ouiColorWarning: #FFB2E2;
+$ouiColorDanger: #FF3DB4;
+
+// Grays
+$ouiColorEmptyShade: #FFFCFD;
+$ouiColorLightestShade: #F5C1E2;
+$ouiColorLightShade: #DF97C4;
+$ouiColorMediumShade: #D982B7;
+$ouiColorDarkShade: #D575B0;
+$ouiColorDarkestShade: #D167A8;
+$ouiColorFullShade: #CC589F;
+
+// Backgrounds
+$ouiPageBackgroundColor: shade($ouiColorLightestShade, 45%);
+$ouiColorHighlight: #FDD;
+
+// Variations from core
+$ouiTextColor: #3D1495;
+$ouiTitleColor: $ouiTextColor;
+$ouiTextSubduedColor: makeHighContrastColor($ouiColorMediumShade);
+$ouiColorDisabled: shade($ouiTextColor, 70%);
+
+// Contrasty text variants
+$ouiColorPrimaryText: makeHighContrastColor($ouiColorPrimary);
+$ouiColorSecondaryText: makeHighContrastColor($ouiColorSecondary);
+$ouiColorAccentText: makeHighContrastColor($ouiColorAccent);
+$ouiColorWarningText: makeHighContrastColor($ouiColorWarning);
+$ouiColorDangerText: makeHighContrastColor($ouiColorDanger);
+$ouiColorDisabledText: makeDisabledContrastColor($ouiColorDisabled);
+$ouiColorSuccessText: $ouiColorSecondaryText;
+$ouiLinkColor: $ouiColorPrimaryText;
+
+// Charts
+$ouiColorChartLines: $ouiColorLightShade;
+$ouiColorChartBand: tint($ouiColorLightestShade, 2.5%);
+
+// Shadows
+$ouiShadowColor: #000;
+$ouiShadowColorLarge: #000;
+
+// Breadcrumbs
+$ouiBreadcrumbBlueBackground: #F990C0;
+$ouiBreadcrumbGrayBackground: #F990C0;
+$ouiBreadcrumbCollapsedLink: #F990C0;
+$ouiBreadCrumbHoverColor: #F990C0;
+
+
+/* OUI -> EUI Aliases */
+$euiColorGhost: $ouiColorGhost;
+$euiColorInk: $ouiColorInk;
+$euiColorPrimary: $ouiColorPrimary;
+$euiColorSecondary: $ouiColorSecondary;
+$euiColorAccent: $ouiColorAccent;
+$euiColorSuccess: $ouiColorSuccess;
+$euiColorWarning: $ouiColorWarning;
+$euiColorDanger: $ouiColorDanger;
+$euiColorEmptyShade: $ouiColorEmptyShade;
+$euiColorLightestShade: $ouiColorLightestShade;
+$euiColorLightShade: $ouiColorLightShade;
+$euiColorMediumShade: $ouiColorMediumShade;
+$euiColorDarkShade: $ouiColorDarkShade;
+$euiColorDarkestShade: $ouiColorDarkestShade;
+$euiColorFullShade: $ouiColorFullShade;
+$euiPageBackgroundColor: $ouiPageBackgroundColor;
+$euiColorHighlight: $ouiColorHighlight;
+$euiTextColor: $ouiTextColor;
+$euiTitleColor: $ouiTitleColor;
+$euiTextSubduedColor: $ouiTextSubduedColor;
+$euiColorDisabled: $ouiColorDisabled;
+$euiColorPrimaryText: $ouiColorPrimaryText;
+$euiColorSecondaryText: $ouiColorSecondaryText;
+$euiColorAccentText: $ouiColorAccentText;
+$euiColorWarningText: $ouiColorWarningText;
+$euiColorDangerText: $ouiColorDangerText;
+$euiColorDisabledText: $ouiColorDisabledText;
+$euiColorSuccessText: $ouiColorSuccessText;
+$euiLinkColor: $ouiLinkColor;
+$euiColorChartLines: $ouiColorChartLines;
+$euiColorChartBand: $ouiColorChartBand;
+$euiShadowColor: $ouiShadowColor;
+$euiShadowColorLarge: $ouiShadowColorLarge;
+$euiBreadcrumbBlueBackground: $ouiBreadcrumbBlueBackground;
+$euiBreadcrumbGrayBackground: $ouiBreadcrumbGrayBackground;
+$euiBreadcrumbCollapsedLink: $ouiBreadcrumbCollapsedLink;
+$euiBreadCrumbHoverColor: $ouiBreadCrumbHoverColor;
+/* End of Aliases */
