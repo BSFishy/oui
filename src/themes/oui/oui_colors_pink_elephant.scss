@@ -16,30 +16,30 @@ $ouiColorGhost: #FFF;
 $ouiColorInk: #000;
 
 // Core
-$ouiColorPrimary: #FF009D;
-$ouiColorSecondary: #6448D6;
-$ouiColorAccent: #BADA55;
+$ouiColorPrimary: #7335E0;
+$ouiColorSecondary: #FFD481;
+$ouiColorAccent: #9DCD65;
 
 // Status
 $ouiColorSuccess: $ouiColorSecondary;
-$ouiColorWarning: #FFB2E2;
-$ouiColorDanger: #FF3DB4;
+$ouiColorWarning: #FFCBC3;
+$ouiColorDanger: #F57600;
 
 // Grays
-$ouiColorEmptyShade: #FFFCFD;
-$ouiColorLightestShade: #F5C1E2;
-$ouiColorLightShade: #DF97C4;
-$ouiColorMediumShade: #D982B7;
-$ouiColorDarkShade: #D575B0;
-$ouiColorDarkestShade: #D167A8;
-$ouiColorFullShade: #CC589F;
+$ouiColorEmptyShade: #FDDFEC;
+$ouiColorLightestShade: #FBD2E2;
+$ouiColorLightShade: #F8B8D0;
+$ouiColorMediumShade: #F194B8;
+$ouiColorDarkShade: #E6308A;
+$ouiColorDarkestShade: #CD2576;
+$ouiColorFullShade: #B51963;
 
 // Backgrounds
-$ouiPageBackgroundColor: shade($ouiColorLightestShade, 45%);
+$ouiPageBackgroundColor: $ouiColorLightestShade;
 $ouiColorHighlight: #FDD;
 
 // Variations from core
-$ouiTextColor: #3D1495;
+$ouiTextColor: #4012BC;
 $ouiTitleColor: $ouiTextColor;
 $ouiTextSubduedColor: makeHighContrastColor($ouiColorMediumShade);
 $ouiColorDisabled: shade($ouiTextColor, 70%);
