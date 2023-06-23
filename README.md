@@ -1,6 +1,7 @@
 ![OpenSearch logo](https://opensearch.org/assets/img/opensearch-logo-themed.svg)
 # OpenSearch UI Framework
 
+
 - [Welcome!](#welcome)
 - [Installation](#installation)
 - [Project Resources](#project-resources)
