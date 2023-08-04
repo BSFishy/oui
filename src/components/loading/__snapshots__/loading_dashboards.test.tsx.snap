@@ -8,7 +8,7 @@ exports[`OuiLoadingDashboards is rendered 1`] = `
 >
   <svg
     fill="none"
-    viewBox="0 0 90 90"
+    viewBox="0 0 80 80"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g>
@@ -47,7 +47,7 @@ exports[`OuiLoadingDashboards size l is rendered 1`] = `
 >
   <svg
     fill="none"
-    viewBox="0 0 90 90"
+    viewBox="0 0 80 80"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g>
@@ -86,7 +86,7 @@ exports[`OuiLoadingDashboards size m is rendered 1`] = `
 >
   <svg
     fill="none"
-    viewBox="0 0 90 90"
+    viewBox="0 0 80 80"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g>
@@ -125,7 +125,7 @@ exports[`OuiLoadingDashboards size xl is rendered 1`] = `
 >
   <svg
     fill="none"
-    viewBox="0 0 90 90"
+    viewBox="0 0 80 80"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g>
@@ -164,7 +164,7 @@ exports[`OuiLoadingDashboards size xxl is rendered 1`] = `
 >
   <svg
     fill="none"
-    viewBox="0 0 90 90"
+    viewBox="0 0 80 80"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g>
